@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "loufVcCwN6YzEyC25i5VKmn7um8c8+4zPlJ+2i08bWnmBdCsxan1lOSFNhBgUrJ5hHzaDNghtJRZO2m5YdLh/g==",
+  "dgSpecHash": "bNPQ2KM5THiWgaP4oG4RQvPe9sSFggnByqbrjY4SyGDpFTKAjGGSZxU0D6EvexB8b0uBTTpiuT/gxuDImzvUqw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\cursodotnet.csproj",
+  "projectFilePath": "C:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\cursodotnet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mateus.freire\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\mateus.freire\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

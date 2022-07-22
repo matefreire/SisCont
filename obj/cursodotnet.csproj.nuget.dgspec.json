@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\cursodotnet.csproj": {}
+    "C:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\cursodotnet.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\cursodotnet.csproj": {
+    "C:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\cursodotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\cursodotnet.csproj",
+        "projectUniqueName": "C:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\cursodotnet.csproj",
         "projectName": "cursodotnet",
-        "projectPath": "c:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\cursodotnet.csproj",
+        "projectPath": "C:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\cursodotnet.csproj",
         "packagesPath": "C:\\Users\\mateus.freire\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\obj\\",
+        "outputPath": "C:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mateus.freire\\AppData\\Roaming\\NuGet\\NuGet.Config",
