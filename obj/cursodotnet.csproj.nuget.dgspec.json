@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\cursodotnet.csproj": {}
+    "C:\\Users\\mateus\\Documents\\Codes\\VSCode\\SisCont\\SisCont\\cursodotnet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\cursodotnet.csproj": {
+    "C:\\Users\\mateus\\Documents\\Codes\\VSCode\\SisCont\\SisCont\\cursodotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\cursodotnet.csproj",
+        "projectUniqueName": "C:\\Users\\mateus\\Documents\\Codes\\VSCode\\SisCont\\SisCont\\cursodotnet.csproj",
         "projectName": "cursodotnet",
-        "projectPath": "C:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\cursodotnet.csproj",
-        "packagesPath": "C:\\Users\\mateus.freire\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateus.freire\\Documents\\Codes\\SisCont\\obj\\",
+        "projectPath": "C:\\Users\\mateus\\Documents\\Codes\\VSCode\\SisCont\\SisCont\\cursodotnet.csproj",
+        "packagesPath": "C:\\Users\\mateus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mateus\\Documents\\Codes\\VSCode\\SisCont\\SisCont\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mateus.freire\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mateus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,7 +53,7 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[6.0.7, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -79,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
