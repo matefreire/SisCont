@@ -2,14 +2,14 @@ using System.Linq;
 
 namespace Br.Ufmt.Web.Curso.Repository
 {
-    public interface IClientesRepository : IRepository<Clientes, long>
+    public interface IClienteRepository : IRepository<Clientes, long>
     {
         public Clientes findByName(string nome);
     }
 
-    public class ClientesRepository : Repository<Clientes, long>, IClientesRepository
+    public class ClienteRepository : Repository<Clientes, long>, IClienteRepository
     {
-        public ClientesRepository(CursoContext context) : base(context)
+        public ClienteRepository(CursoContext context) : base(context)
         {
         }
         public Clientes findByName(string nome)
