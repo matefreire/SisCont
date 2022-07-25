@@ -1,9 +1,9 @@
 
 namespace Br.Ufmt.Web.Curso.DTO
 {
-    public class User
+    public class Usuarios
     {
-        public string username { get; set; }
-        public string password { get; set; }
+        public string login { get; set; }
+        public string senha { get; set; }
     }
 }
