@@ -4,7 +4,7 @@ Banco de dados escolhido - PostgresSQL
 
 Comando de criação de banco/tabelas:
 
-'''
+```
 CREATE DATABASE SisCont;
 
 USE SisCont;
@@ -78,4 +78,4 @@ CREATE TABLE Clientes (
     cpf VARCHAR(80) NOT NULL,
     email VARCHAR(80) NOT NULL
 );
-'''
+```
