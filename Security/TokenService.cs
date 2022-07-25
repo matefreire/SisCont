@@ -14,7 +14,7 @@ namespace Br.Ufmt.Web.Curso.Security
 
     public class TokenService
     {
-        public static string GenerateToken(Usuario usuario)
+        public static string GenerateToken(Usuarios usuario)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.UTF8.GetBytes(Settings.SECRET);
@@ -22,7 +22,7 @@ namespace Br.Ufmt.Web.Curso.Security
             {
                 Subject = new ClaimsIdentity(new Claim[]
                   {
-              new Claim(ClaimTypes.Name, usuario.Username.ToString())
+              new Claim(ClaimTypes.Name, usuario.Login.ToString())
                   }),
                 Expires = DateTime.Now.AddMilliseconds(Settings.EXPIRATION),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)

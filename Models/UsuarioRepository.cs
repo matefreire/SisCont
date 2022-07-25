@@ -2,26 +2,26 @@ using System.Linq;
 
 namespace Br.Ufmt.Web.Curso.Repository
 {
-    public interface IUsuarioRepository : IRepository<Usuario, long>
+    public interface IUsuarioRepository : IRepository<Usuarios, long>
     {
-        public Usuario findByName(string username);
-        public Usuario findByNameAndPassword(string username, string password);
+        public Usuarios findByName(string username);
+        public Usuarios findByNameAndPassword(string username, string password);
     }
 
-    public class UsuarioRepository : Repository<Usuario, long>, IUsuarioRepository
+    public class UsuarioRepository : Repository<Usuarios, long>, IUsuarioRepository
     {
         public UsuarioRepository(CursoContext context) : base(context)
         {
         }
-        public Usuario findByName(string username)
+        public Usuarios findByName(string login)
         {
-            return db.First(u => u.Username == username);
+            return db.First(u => u.Login == login);
         }
 
-        public Usuario findByNameAndPassword(string username, string password)
+        public Usuarios findByNameAndPassword(string username, string password)
         {
             var user = this.findByName(username);
-            if (BCrypt.Net.BCrypt.Verify(password, user.Password, false, BCrypt.Net.HashType.SHA256))
+            if (BCrypt.Net.BCrypt.Verify(password, user.Senha, false, BCrypt.Net.HashType.SHA256))
             {
                 return user;
             }
