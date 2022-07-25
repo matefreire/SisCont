@@ -17,9 +17,9 @@ namespace Br.Ufmt.Web.Curso.Controller
 
         [HttpPost]
         [Route("login")]
-        public async Task<ActionResult<dynamic>> index([FromBody] User user)
+        public async Task<ActionResult<dynamic>> index([FromBody] Usuarios usuarios)
         {
-            var usuario = rep.findByNameAndPassword(user.username, user.password);
+            var usuario = rep.findByNameAndPassword(usuarios.login, usuarios.senha);
             if (usuario == null)
                 return new NotFoundObjectResult(new { message = "Usuário ou senha inválidos" });
 
