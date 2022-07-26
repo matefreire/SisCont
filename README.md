@@ -1,6 +1,6 @@
 # SisCont
 
-Alunos: Mateus Silva Freire e Matheus Duarte Queiroz
+Mateus Silva Freire e Matheus Duarte Queiroz
 
 Banco de dados escolhido - PostgresSQL
 
