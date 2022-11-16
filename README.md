@@ -1,6 +1,4 @@
-# SisCont
-
-Sistema Simplificado de Contabilidade
+# SisCont - Sistema Simplificado de Contabilidade
 
 Mateus Silva Freire e Matheus Duarte Queiroz
 
