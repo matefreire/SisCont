@@ -1,5 +1,7 @@
 # SisCont
 
+Sistema Simplificado de Contabilidade
+
 Mateus Silva Freire e Matheus Duarte Queiroz
 
 BD: PostgresSQL
