@@ -2,7 +2,7 @@
 
 Mateus Silva Freire e Matheus Duarte Queiroz
 
-Banco de dados escolhido - PostgresSQL
+BD: PostgresSQL
 
 Comando de criação de banco/tabelas:
 
